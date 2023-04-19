@@ -1,0 +1,308 @@
+/* Global Styles */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+/* Header Styles */
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+/* Main Styles */
+main {
+	padding: 20px;
+}
+
+.hero {
+	background-image: url('hero.jpg');
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	text-align: center;
+	padding: 100px 20px;
+}
+
+.hero h1 {
+	margin-top: 0;
+	font-size: 3em;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+    }
+    
+    .button {
+    display: inline-block;
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border: 2px solid #333;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    }
+    
+    .button:hover {
+    background-color: #333;
+    color: #fff;
+    }
+    
+    .products {
+    margin-top: 40px;
+    }
+    
+    .products h2 {
+    margin-top: 0;
+    }
+    
+    .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    
+    .product {
+    flex: 1 1 30%;
+    margin-bottom: 40px;
+    }
+    
+    .product img {
+    max-width: 100%;
+    }
+    
+    .product h3 {
+    margin-top: 0;
+    }
+    
+    .product p {
+    margin-bottom: 0;
+    }
+    
+    .newsletter {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    }
+    
+    .newsletter h2 {
+    margin-top: 0;
+    }
+    
+    .newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    }
+    
+    .newsletter label {
+    margin-right: 10px;
+    }
+    
+    .newsletter input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    }
+    
+    .newsletter button[type="submit"] {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    }
+    
+    .newsletter button[type="submit"]:hover {
+    background-color: #fff;
+    color: #141414;
+    }
+    
+    /* Footer Styles */
+    footer {
+    background-color: #121212;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    }  
+    
+    /* shop css */
+
+    /* Product Card Styles */
+.product-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #fff;
+	padding: 20px;
+	margin-bottom: 30px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.product-card img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+.product-card h3 {
+	font-size: 24px;
+	font-weight: 600;
+	margin: 0;
+	margin-top: 10px;
+}
+
+.product-card p {
+	margin: 0;
+	font-size: 18px
+}
+
+/* about us */
+
+/* Team Member Styles */
+.team-member {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+.team-member img {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 50%;
+	margin-bottom: 10px;
+}
+
+.team-member h4 {
+	margin: 0;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.team-member p {
+	margin: 0;
+	font-size: 18px;
+	font-weight: 400;
+	color: #999;
+	margin-top: 5px;
+	text-align: center;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+	.team-member img {
+		width: 150px;
+		height: 150px;
+	}
+
+	.team-member h4 {
+		font-size: 20px;
+	}
+
+	.team-member p {
+		font-size: 16px;
+	}
+}
+
+/* contact us */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .contact {
+    padding: 80px 0;
+  }
+  
+  .contact h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    height: 200px;
+  }
+  
+  button[type="submit"] {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #333;
+  }
+  
+  .active {
+    color: #000;
+    font-weight: bold;
+  }
+  
+  footer {
+    background-color: #ccc;
+    padding: 20px 0;
+  }
+  
+  footer p {
+    text-align: center;
+  }
+  
